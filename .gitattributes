@@ -1,2 +1,10 @@
-/mvnw text eol=lf
+# Comportamiento por defecto: Git decide automáticamente
+* text=auto
+
+# Forzar que los scripts de Windows siempre tengan saltos de línea de Windows (CRLF)
 *.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Forzar que los scripts de Mac/Linux siempre tengan saltos de línea de Mac/Linux (LF)
+*.sh text eol=lf
+mvnw text eol=lf
