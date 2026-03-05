@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 public class CouponController {
     @GetMapping("path")
     public String getMethodName(@RequestParam String param) {
-        return new String();
+        return "";
     }
 
     @GetMapping("/getCoupon/{code}")
